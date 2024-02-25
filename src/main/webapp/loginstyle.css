@@ -1,0 +1,123 @@
+@charset "ISO-8859-1";
+
+body
+{
+	background: linear-gradient(to top, #b02a30, #ff9900);
+	width: 100%;
+	color: #0080c0;
+}
+
+.div1
+{
+	width: 100%;
+	height: 720px;
+}
+
+.div2
+{
+	width: 100%;
+	height: 80px;
+	display: flex;
+	column-gap: 20%;
+	margin-bottom: 5%;
+}
+
+.div3
+{
+	width: 15%;
+	height: 90%;
+}
+
+.div3 img
+{
+	width: 100%;
+	height: 100%;
+}
+
+.div4
+{
+	display: 65%;
+	height: 100%;
+	text-align: center;
+}
+
+.div5
+{
+	display: flex;
+	width: 100%;
+	height: 60%;
+	margin-left: 10%;
+	column-gap: 10%;
+}
+
+.div6
+{
+	width: 40%;
+	height: 100%;
+	border-radius:20px;
+}
+
+.div6 img
+{
+	width: 100%;
+	height: 100%;
+	border-radius: 20px;
+}
+
+.div7
+{
+	width: 30%;
+	height: 100%;
+	text-align: center;
+	color: #33ff33;
+	background: #e2e2e2;
+	border-radius:20px;
+}
+
+.div7 h2
+{
+	color: #ff0033;
+}
+
+.div8
+{
+	display: flex;
+	color: #a65300;
+	margin-left: 10%;
+	margin-top: 6%;
+	margin-bottom: 6%;
+}
+
+.div9
+{
+	width: 20%
+}
+
+.div10
+{
+	width: 75%
+}
+
+.div10 input
+{
+	width: 60%;
+}
+
+.div7 h3
+{
+	color: red;
+}
+
+.div11 
+{
+	display: flex;
+	column-gap: 10%;
+	margin-left: 30%;
+}
+
+.div11 input
+{
+	background: #6699cc;
+	width: 25%;
+	height: 30px;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Statement</title>
+<style>
+	body
+	{
+		background: #e87400;
+		width: 100%;
+		color: #0080c0;
+	}
+	
+	#div
+	{
+		border-radius:20px;
+		width: 50%;
+		background: #e2e2e2;
+		margin-left: 25%;
+		margin-top: 10%;
+		text-align: center;
+	}
+	
+	.div1
+	{
+		display: flex;
+		margin-left: 8%;
+		column-gap: 10%;
+		
+	}
+	
+	.div1 div
+	{
+		width: 25%;
+		margin-top:6%;
+	}
+	
+	.div1 div a
+	{
+		font-size: 20px;
+	}
+	
+	#div3
+	{
+		width:100%;
+		margin-top: 2%;
+	}
+	
+	#input
+	{
+		width:20%;
+		height: 25px;
+	}
+	
+	#div4
+	{
+		width:60%;
+		margin-left: 20%;
+		margin-top: 4%;
+		margin-bottom: 2%;
+		column-gap: 10%;
+	}
+	
+	#button
+	{
+		background: #acacff;
+		width: 15%;
+		height: 35px;
+		color: green;
+		font-size: 15px; 
+		border-radius: 10px;
+		display: inline;
+	}
+</style>
+</head>
+<body>
+<form action="datechoice">
+<div id="div">
+	<div class="div1">
+		<div><a href="last10transaction">Last 10 Transaction</a></div>
+		<div><a href="thisyear">This Year Statement</a></div>
+		<div><a href="lastyear">Last Year Statement</a></div>
+		
+	</div>
+	<div id="div3">
+	<br>
+		<h2>select date of your choice</h2>
+		
+		<div id="div5">
+		<input id="input" type="date" name="firstdate">
+		<h3 style="display: inline"> ( or ) </h3>
+		<input id="input" type="date" name="seconddate">
+		</div>
+	</div>
+	<div id="div4">
+		<input id="button" type="submit">
+		<input id="button" type="reset">
+		</div>
+	<br>
+</div>
+	</form>
+</body>
+</html>

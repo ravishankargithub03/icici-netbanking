@@ -1,0 +1,141 @@
+@charset "ISO-8859-1";
+
+body
+{
+	background: linear-gradient(to top, #b02a30, #ff9900);
+	color: #0080c0;
+	background-size: cover;
+}
+
+.div1
+{
+	width: 100%;
+	height: 700px;
+	display: flex;
+}
+
+.menu
+{
+	width: 60%;
+	height: 80px;
+	background: #e8f8ff;
+	text-align: center;
+}
+
+.menu ul
+{
+	list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;	
+}
+
+.menu ul li
+{
+	position: relative;
+    flex: 1;
+    text-align: center;
+	margin-top: 3%;
+}
+
+.menu a
+{
+	 float: left;
+    display: block;
+    color: #b56a6a;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.active, .menu ul li:hover
+{
+	 background-color: #9fd0d0;
+    color: #6200c4;
+border-radius: 4px;
+}
+
+.name
+{
+	width: 30%;
+	height: 80px;
+	background: #e8f8ff;
+}
+
+.name h2
+{
+	color: green;
+	text-align: center;
+}
+
+.image
+{
+	width: 10%;
+	height: 80px;
+}
+.image img
+{
+	width: 100%;
+	height: 100%
+}
+
+.submenu1
+{
+	display: none;
+}
+
+.menu ul li:hover .submenu1
+{
+	display: block;
+	position: absolute;
+	background: #e8f8ff;
+	margin-left: 5%;
+	margin-top: 5%;
+	z-index: 1;
+}
+
+.menu ul li:hover .submenu1 ul
+{
+	display: block;
+}
+
+.menu ul li:hover .submenu1 ul li
+{
+	width: 150px;
+	padding: 10px;
+	color: #b56a6a;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+}
+
+.submenu2
+{
+	display: none;
+}
+
+.menu ul li:hover .submenu2
+{
+	display: block;
+	position: absolute;
+	background: #e8f8ff;
+	margin-left: 5%;
+	margin-top: 1%;
+	z-index: 1;
+}
+
+.menu ul li:hover .submenu2 ul
+{
+	display: block;
+}
+
+.menu ul li:hover .submenu2 ul li
+{
+	width: 150px;
+	padding: 10px;
+	color: #b56a6a;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+}
